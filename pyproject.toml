@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "type-shotspotter-fc"
+name = "type-southside-weekly-shotspotter"
 version = "0.1.0"
-description = "FC analysis for Type story on ShotSpotter false negatives."
+description = "Analysis for Type story on ShotSpotter false negatives."
 authors = ["Ethan Corey <ethanscorey@gmail.com>"]
 readme = "README.md"
 packages = [
