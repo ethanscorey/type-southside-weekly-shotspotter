@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "type-shotspotter-fc"
+version = "0.1.0"
+description = "FC analysis for Type story on ShotSpotter false negatives."
+authors = ["Ethan Corey <ethanscorey@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "shotspotter" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+geopandas = "^1.0.1"
+openpyxl = "^3.1.5"
+matplotlib = "^3.9.1"
+geodatasets = "^2024.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
